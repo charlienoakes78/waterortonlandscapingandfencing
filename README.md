@@ -7,12 +7,12 @@ Open `index.html` in a browser. An internet connection is needed for Google Font
 
 ## Important launch checklist
 This is a designed starter site. Before publishing:
-1. Replace `hello@example.com` in `script.js` with your real business email.
-2. Add your real phone number and a `tel:` click-to-call link. The current quote buttons go to the quote form because no phone number was provided.
+1. Business email is configured as keggles@sky.com.
+2. Click-to-call is configured as 07977 546040.
 3. Connect the quote form to a form backend such as Formspree, Netlify Forms, or your hosting provider. Right now it prepares an email draft and does not send or store enquiries itself.
 4. Replace sample gallery images with photos of your own completed projects.
 5. Replace the sample review text with real, permissioned customer reviews.
-6. Confirm your actual service area and add the areas you cover.
+6. Service area text includes Water Orton, Coleshill, Castle Bromwich and nearby.
 7. Check all wording, contact details, pricing, insurance/trade claims, privacy notice and cookie requirements before launch.
 
 ## Domain name ideas

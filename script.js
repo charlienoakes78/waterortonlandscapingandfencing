@@ -22,7 +22,7 @@ document.getElementById('quoteForm')?.addEventListener('submit', event => {
     `Name: ${data.get('name')}\nPhone: ${data.get('phone')}\nEmail: ${data.get('email') || 'Not supplied'}\nService: ${data.get('service')}\n\nProject details:\n${data.get('details')}`
   );
   const message = document.getElementById('formMessage');
-  message.textContent = 'Your email app should open with the request prepared. Add your real business email in the website setup before publishing.';
-  // Replace hello@example.com with the business email address before launch.
-  window.location.href = `mailto:hello@example.com?subject=${subject}&body=${body}`;
+  message.textContent = 'Your email app should open with the request prepared. Please send the email to complete your enquiry.';
+  // Opens the visitor’s email application; does not send automatically.
+  window.location.href = `mailto:keggles@sky.com?subject=${subject}&body=${body}`;
 });
