@@ -4,3 +4,13 @@
 
 /* Mobile refinements */
 @media(max-width:600px){.hero-content{padding-top:58px;padding-bottom:72px}.hero-photo{background-position:55% center}.hero-copy{max-width:34ch}.hero-actions{gap:10px}.hero-actions .button{font-size:11px}.menu-toggle{color:var(--ink)}.brand-name{letter-spacing:.6px}.mobile-call{padding-bottom:max(15px,env(safe-area-inset-bottom))}}
+
+/* Actual project photographs */
+.hero-photo{background-image:url("images/artificial-grass-and-patio.jpg")}
+.service-image-one{background-image:url("images/artificial-grass-and-patio.jpg")}
+.service-image-two{background-image:url("images/patio-and-fencing.jpg")}
+.service-image-three{background-image:url("images/decorative-fencing.jpg")}
+.gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gallery figure{min-height:240px}
+.gallery img{height:100%;width:100%;object-fit:cover}
+@media(max-width:700px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery .gallery-large{grid-column:span 2}.gallery figure{min-height:210px}}
