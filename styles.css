@@ -14,3 +14,6 @@
 .gallery figure{min-height:240px}
 .gallery img{height:100%;width:100%;object-fit:cover}
 @media(max-width:700px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery .gallery-large{grid-column:span 2}.gallery figure{min-height:210px}}
+
+/* Genuine customer reviews */
+.reviews-heading {margin-bottom:2rem} .reviews-heading>p:last-child{color:#c9d5cb;margin-top:1rem} .customer-reviews-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem}.customer-review-card{border:1px solid rgba(255,255,255,.25);padding:1.5rem;min-width:0;background:rgba(255,255,255,.035)}.customer-review-top{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}.customer-review-score{font-weight:800;color:#c1f17d;font-size:1.35rem}.customer-review-date{color:#c6d0c5;font-size:.85rem}.customer-review-card h3{font-size:1.3rem;color:white;margin:1rem 0}.customer-review-card p{color:#f1f5ee;line-height:1.65;overflow-wrap:anywhere}.customer-review-source{color:#c1f17d;font-size:.82rem;margin-top:1.5rem;font-weight:700}@media(max-width:700px){.customer-reviews-grid{grid-template-columns:1fr}.customer-review-card{padding:1.25rem}}
